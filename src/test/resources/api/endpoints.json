@@ -1,0 +1,7 @@
+{
+    "map": "/map",
+    "hotel": "/api/map/hotel",
+    "fitness": "/api/map/fitness",
+    "family": "/api/map/family",
+    "restaurant": "/api/map/restaurant"
+}

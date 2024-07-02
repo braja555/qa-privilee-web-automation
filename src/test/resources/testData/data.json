@@ -1,0 +1,20 @@
+{
+  "venueName": "Movenpick Resort Al Marjan Island",
+  "hotelName": "Anantara Mina Al Arab Ras Al Khaimah Resort",
+  "venueType": "Hotel",
+  "hotelFacilities": "Kids pool",
+  "familyAccessForKids": "Free access for 3 kids",
+  "familyAccessForAdult": "Free access for 17-year-olds",
+  "guestAccess": "Venue guest rates",
+  "cardNumber": "4242 4242 4242 4242",
+  "mm/yy": "12/27",
+  "cvc": "123",
+  "adultOne": 1,
+  "adultTwo": 2,
+  "childrenYes": true,
+  "childrenNo": false,
+  "payUpFront": true,
+  "payMonthly": true,
+  "membership": "12 months",
+  "menus" : ["pool", "fitness", "family", "dining"]
+}

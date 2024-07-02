@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Privilee Web Automation Playwright Suite" thread-count="5" parallel= "classes">
+    <listeners>
+        <listener
+                class-name="listeners.ExtentReportListener" />
+    </listeners>
+    <test name="Web Automation">
+        <parameter name="browser" value="chrome" />
+        <parameter name="env" value="staging" />
+        <classes>
+            <class name="testScripts.SignUpTest" />
+            <class name="testScripts.MenuTest" />
+            <class name="testScripts.FilterTest" />
+            <class name="testScripts.SearchVenueTest" />
+        </classes>
+    </test>
+</suite>
